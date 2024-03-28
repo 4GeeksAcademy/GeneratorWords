@@ -1,11 +1,6 @@
-/* eslint-disable */
-import "bootstrap";
-import "./style.css";
+function generateRandomwords(words) {
+  let part = words.length;
+  let ramdomword = Math.floor(Math.random() * part);
 
-import "./assets/img/rigo-baby.jpg";
-import "./assets/img/4geeks.ico";
-
-window.onload = function() {
-  //write your code here
-  console.log("Hello Rigo from the console!");
-};
+  return words[ramdomword];
+}
